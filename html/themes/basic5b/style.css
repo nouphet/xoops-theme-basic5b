@@ -48,10 +48,11 @@ header h1 					{ font-size: 90px; font-family: 'Droid Serif', serif; line-height
 	-moz-transition-timing-function: linear, ease-in;
 	transition-timing-function: linear, ease-in;
 }
-h1 a 			{ text-decoration: none;  color:#222;}
-h1 a:hover 			{ text-decoration: none; color: #27B3CF; }
+h1 a 		{ text-decoration: none;  color:#222;}
+h1 a:hover 	{ text-decoration: none; color: #27B3CF; }
 
-header h2 					{ font-family: 'Helvetica'; font-size: 18px; padding: 10px;
+header h2 {
+	font-family: 'Helvetica'; font-size: 18px; padding: 10px;
 	-webkit-transition-property: font-size;
 	-moz-transition-property: font-size;
 	transition-property: font-size;
@@ -62,16 +63,17 @@ header h2 					{ font-family: 'Helvetica'; font-size: 18px; padding: 10px;
 	-moz-transition-timing-function: linear, ease-in;
 	transition-timing-function: linear, ease-in;
 }
-h2 {font-size:1.4em; }
-h2 a 			{ text-decoration: none;}
-h3 					{ font-family: 'Droid Serif', serif; font-size: 30px; }
-h4 					{ font-family: 'Droid Serif', serif; padding: 3px; margin: 5px 0 0 0; }
-h4 a 				{ text-decoration: underline; }
-h4 a:hover 			{  }
+h2 	{ font-size:1.4em; }
+h2 a 	{ text-decoration: none;}
+/* h3 	{ font-family: 'Droid Serif', serif; font-size: 30px; } */
+h3 	{ font-family: 'Droid Serif', serif; }
+h4 	{ font-family: 'Droid Serif', serif; padding: 3px; margin: 5px 0 0 0; }
+h4 a 	{ text-decoration: underline; }
+h4 a:hover	{  }
 
-#navigation { background: #222; padding: 0; margin: 10px 0;}
-#navigation a	{ color: #F9F9F9; display: block; float: left; padding: 10px; text-decoration: none;}
-#navigation a:visited 		{ color: #f9f9f9; }
+#navigation		{ background: #222; padding: 0; margin: 10px 0;}
+#navigation a		{ color: #F9F9F9; display: block; float: left; padding: 10px; text-decoration: none;}
+#navigation a:visited	{ color: #f9f9f9; }
 #navigation a:hover			{ text-decoration: none; background: #27B3CF; }
 #navigation a:active		{ position: relative; top: 0; }
 
@@ -180,14 +182,16 @@ body.L0R0 .left-col , body.L1R0 .left-col{
 #CenterRColumn { float: right; width: 49%;}
 #CenterLColumn div , #CenterRColumn div { clear: both; }
 
-p 					{ padding: 0 5px 0 5px; }
+p	{ padding: 0 5px 0 5px; }
 
-ul 					{ list-style: none; }
-ul li 				{ margin: 0 5px; }
+ul	{ list-style: none; margin-left: 2em }
+ul li 	{ margin: 0 5px; }
 
-footer 				{ padding: 5px; text-align:center;}
+#pico_body ol { margin-left: 2em }
 
-pre					{ overflow: auto; font-size: 12px; }
+footer 	{ padding: 5px; text-align:center;}
+
+pre	{ overflow: auto; font-size: 12px; }
 
 /* search */
 #search {
