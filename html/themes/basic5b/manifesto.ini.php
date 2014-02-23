@@ -5,7 +5,7 @@
 Name="basic5b"
 Depends=Legacy_RenderSystem,legacy
 Url="http://https://github.com/nouphet/xoops-theme-basic5b/"
-Version="1.02"
+Version="1.03"
 
 [Theme]
 RenderSystem=Legacy_RenderSystem
