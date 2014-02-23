@@ -4,7 +4,7 @@
 項目 | 詳細
 ------------ | -------------
 【テーマ名　】| basic5b
-【バージョン】| 1.03k
+【バージョン】| 1.03
 【作　成　者】| Toshihiro Takehara aka nouphet
 【動作　環境】| XOOPS Cube Legacy 2.1x (HD1.04)、2.2
 【ライセンス】| MIT
